@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+body {
+  background-color: #f5f7fb;
+  height: 100%;
+  overflow: hidden;
+}
+
+.quiz {
+  display: block;
+  margin: auto;
+  text-align: center;
+  margin-top: 30px;
+  width: 800px;
+}
+
+.question {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #293264;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  text-align: justify;
+}
+
+.options {
+  text-align: left;
+  max-width: 700px;
+}
+
+input {
+  display: none;
+}
+
+.btns > label {
+  border-radius: 10px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+  width: 100%;
+  transition: 0.3s ease;
+
+  background: #f5f7fb;
+  border: 0.794239px solid #4d5b9e;
+  box-sizing: border-box;
+  border-radius: 7.94239px;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding: 5px 10px 5px 10px;
+}
+
+input:checked + label {
+  background-color: teal;
+  color: white;
+}
+
+label:hover {
+  background-color: #d6dbf5;
+  cursor: pointer;
+}

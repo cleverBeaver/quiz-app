@@ -1,0 +1,17 @@
+.top-blob {
+  position: fixed;
+  top: 0;
+  right: 0;
+  transform: scale(1.5);
+
+  z-index: -1;
+}
+
+.bottom-blob {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  transform: scale(1.5);
+
+  z-index: -1;
+}
